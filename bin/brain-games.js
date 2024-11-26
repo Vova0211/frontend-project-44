@@ -1,4 +1,6 @@
-import {greetings} from '../src/cli.js';
+import { greetings } from '../src/cli.js';
+import { brainEven } from './brain-even.js';
 
 console.log('Welcome to the Brain Games!');
-greetings(); 
+let name = greetings();
+brainEven(name);
