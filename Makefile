@@ -5,4 +5,4 @@ start:
 install: 
 	npm ci
 lint:
-	npx eslint
+	npx eslint .
