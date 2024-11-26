@@ -15,5 +15,8 @@
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.15.0"
+  }
 }
