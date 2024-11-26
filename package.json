@@ -4,11 +4,16 @@
   "description": "[![Actions Status](https://github.com/Vova0211/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Vova0211/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
-    "frontend-project-44": "bin/brain-games.js"
+    "frontend-project-44": "bin/brain-games.js",
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
 }
