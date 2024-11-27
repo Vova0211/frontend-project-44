@@ -9,7 +9,7 @@ console.log('What is the result of the expression?');
 const signs = ["+", "-", "*"];
 for (let i = 0; i < 3; i++) {
   const num1 = Math.floor(Math.random() * 100);
-  const num2 = Math.floor(Math.random() * 15);
+  const num2 = Math.floor(Math.random() * 100);
   const sign = Math.floor(Math.random() * 3);
   let result = 0;
   if (sign === 0) {

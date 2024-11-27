@@ -21,7 +21,12 @@ const name = greetings();
       console.log("'no' is wrong answer ;(. Correct answer was 'yes'.");
       console.log(`Let's try again, ${name}!`);
       break
+    } else if (random % 2 === 0){
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.`);
+      console.log(`Let's try again, ${name}!`);
+      break
     } else {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.`);
       console.log(`Let's try again, ${name}!`);
       break
     }
