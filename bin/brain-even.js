@@ -4,10 +4,9 @@ import { greetings } from '../src/cli.js';
 
 console.log('Welcome to the Brain Games!');
 const name = greetings();
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  const res = 0;
-  for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
     const random = Math.floor(Math.random() * 101);
     console.log(`Question: ${random}`);
     const answer = readlineSync.question('Your answer: ');
@@ -33,4 +32,4 @@ const name = greetings();
     if (i === 2) {
       console.log(`Congratulations, ${name}!`);
     }
-  }
+}
