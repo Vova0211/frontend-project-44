@@ -15,9 +15,11 @@ for (let i = 0; i < 3; i++) {
     if (answer === 'no') {
       ans = 'yes';
       // res = false;
-    } else {
+    } else if (answer === 'yes' || random % 2 !== 0) {
       ans = 'no';
       // res = true;
+    } else if (random % 2 === 0) {
+      ans = 'yes';
     }
     if ((answer === 'yes' && random % 2 === 0) || (answer === 'no' && random % 2 !== 0)) {
       console.log('Correct!');
@@ -26,7 +28,7 @@ for (let i = 0; i < 3; i++) {
       console.log(`Let's try again, ${name}!`);
       break;
     }
-    if (i === 2) {
-      console.log(`Congratulations, ${name}!`);
-    }
+  if (i === 2) {
+    console.log(`Congratulations, ${name}!`);
+  }
 }
