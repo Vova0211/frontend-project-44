@@ -17,8 +17,8 @@ function NOD () {
   return x;
 }
 for (let i = 0; i < 3; i++) {
-  let num1 = Math.floor(Math.random() * 101);
-  let num2 = Math.floor(Math.random() * 101);
+  const num1 = Math.floor(Math.random() * 101);
+  const num2 = Math.floor(Math.random() * 101);
   console.log(`Question: ${num1} ${num2}`);
   const answer = readlineSync.question('Your answer: ');
   if (answer === `${NOD(num1, num2)}`) {
@@ -26,7 +26,7 @@ for (let i = 0; i < 3; i++) {
   } else {
     console.log(`'${answer}' is wrong answer ;(. Correct answer was '${NOD(num1, num2)}'.`);
     console.log(`Let's try again, ${name}!`);
-    break
+    break;
   }
   if (i === 2) {
     console.log(`Congratulations, ${name}!`);
