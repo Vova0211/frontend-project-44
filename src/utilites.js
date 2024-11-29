@@ -12,7 +12,7 @@ const randomEquasion = (num1, num2) => {
       result: `${num1 + num2}`,
     };
   } if (randomSymbol === '-') {
-    return {
+    return { 
       equasion: `${num1} - ${num2}`,
       result: `${num1 - num2}`,
     }; 
