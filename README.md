@@ -18,7 +18,7 @@ make install
 make publish
 ```
   ```
-make link
+npm link
 ```
 
 ### Now you can play Brain games!
