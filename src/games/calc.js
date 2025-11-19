@@ -9,5 +9,5 @@ const getQuestionAndAnswer = () => {
 }
 
 export default () => {
-  gameEngine(rule, getQuestionAndAnswer);
+  gameEngine(rule, getQuestionAndAnswer)
 }

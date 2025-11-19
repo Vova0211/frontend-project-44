@@ -23,4 +23,4 @@ const getQuestionAndAnswer = () => {
   return [question, answer]
 }
 
-export default () => gameEngine(rule, getQuestionAndAnswer);
+export default () => gameEngine(rule, getQuestionAndAnswer)
